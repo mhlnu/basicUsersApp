@@ -1,0 +1,26 @@
+.users {
+    font-family: 'Karla';
+    .strong {
+        font-weight: bold;
+    }
+    h3 {
+        margin-top: 0 !important;
+        margin-bottom: 2rem !important;
+        font-size: 1.2rem !important;
+        text-transform: uppercase !important;
+    }
+    .userDetails {
+        .column {
+            padding: .3rem 1rem !important;
+        }
+    }
+    .gridHeader {
+        margin-top: 2rem;
+        .ui.header {
+            margin: 0 !important;
+        }
+    }
+    a {
+        cursor: pointer;
+    }
+}
