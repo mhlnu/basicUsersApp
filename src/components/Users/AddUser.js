@@ -8,7 +8,7 @@ const AddUser = props => {
     const [errors, setErrors] = useState([]);
 
     const editUser = () => {
-        const actionBody = { method: "POST" };
+        const actionBody = { method: "POST", body: user };
         const edit = async () => {
             const data = await fetch(`https://reqres.in/api/users/`, actionBody);
             const json = await data;
